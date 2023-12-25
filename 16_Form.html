@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "UTF-8"> <!--For supporting different character -->
+		<meta http-equiv = "X-UA-Compatible" content = "IE=edge"><!--Internet explorer can support older version -->
+		<meta name="viewport" content = "width=device-width,initial-scale=1.0"/><!--To support every device -->
+		
+		<meta name="description" content = "Free html tutorial"/><!--To optimize the search engine -->
+		<meta name="keywords" content = "html, HTML"/><!--To make the search engine easier to search-->
+		<meta name="author" content = "Sabiha Nasrin Jyoti"/>
+		
+		
+		<title>Form</title>
+	</head>
+
+	<body>
+		<h1 style="text-align:center; color:#7250af">Form</h1><hr/>
+		<h2>Registration Form</h2>
+		<form>
+			<div>
+				<label for="User Name">User Name:</label><input name="User Name" id="User Name" type="text" required>
+			</div></br>
+			<div>
+				<label for="Email">Email:</label><input name="Email" id="Email" type="email">
+			</div></br>
+			<div>
+				<label for="password">Password:</label><input name="password" id="password" type="password">
+			</div></br>
+			<div>
+				<label for="dob">Date of Birth:</label><input name="dob" id="dob" type="date">
+			</div></br>
+			<div>
+			<	label for="photo">Choose your photo:</label><input name="photo" id="photo" type="file">
+			</div></br>
+			<div>
+				<label for="gender">Gender:</label>
+				<input name="gender" id="gender" type="radio" value="male">Male
+				<input name="gender" id="gender" type="radio" value="female">Female
+				</div></br>
+			<div>
+			<label for="photo">Department:</label>
+				<select name="department">
+					<option value="CSE">CSE</option>
+					<option selected value="EEE">EEE</option>
+					<option value="Civil">Civil</option>
+					<option value="IPE">IPE</option>
+					<option value="CS">CS</option>
+					
+				</select>
+			</div></br>
+			<div>
+				<label for="Hobby">Hobby:</label>
+				<input name="Hobby" id="Hobby" checked type="checkbox" value="Cooking">Cooking
+				<input name="Hobby" id="Hobby" type="checkbox" value="Drawing">Drawing
+				<input name="Hobby" id="Hobby" type="checkbox" value="Watching Movie">Watching Movie
+				</div></br>
+			<div>
+				<label for="message">Message:</label><br/>
+				<textarea>
+				
+				</textarea>
+			</div></br>
+			<div>
+				<input type="submit" value="Register">
+				<input type="reset" value="Clear">
+			</div></br>
+		</form>
+		
+	
+	</body>
+</html>
